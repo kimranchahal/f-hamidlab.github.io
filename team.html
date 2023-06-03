@@ -15,13 +15,25 @@ permalink: /team/
   {% endfor %}
 </div>
 
-<div style="margin:0 50px"><h1>Alumni</h1></div>
+<div class="posts">
+
+  <div class="secttitle"><h1>Alumni</h1></div>
+
+  {% for member in site.alumni %}
 
 
-{% for member in site.alumni %}
-    <div class="alumni-block">
+
+    <article class="post">
+
       <h3>{{ member.name }}</h3>
       <p>{{ member.position }}</p>
-    </div>
-    
-{% endfor %}
+    </article>
+
+  {% endfor %}
+  
+
+</div>
+
+
+
+
