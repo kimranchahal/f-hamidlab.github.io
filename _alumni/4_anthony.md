@@ -1,4 +1,3 @@
-
 ---
 name: Anthony Booker
 position: Undergraduate intern 
