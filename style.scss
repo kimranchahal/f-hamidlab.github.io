@@ -377,6 +377,39 @@ nav {
 
 }
 
+.mthumb{
+
+margin-right:15px; 
+	float:left; 
+	width:250px; 
+	display:inline-block;
+	
+@include mobile {
+      width:0px;
+
+    }	
+
+	
+
+	
+
+	
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+}
+
 .pubs > .pub {
   margin: 50px 100px;
   padding: 0 30px;
