@@ -385,7 +385,7 @@ margin-right:15px;
 	display:inline-block;
 	
 @include mobile {
-      width:0px;
+      display: none !important; 
 
     }	
 
