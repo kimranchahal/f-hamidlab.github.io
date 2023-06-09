@@ -381,8 +381,17 @@ nav {
 
 
 	float:left; 
-	width:250px; 
+	width:200px; 
+	height:150px; 
+	
+	
+	
+	
 	display:inline-block;
+	object-fit: cover;
+	
+	
+	
 	
 @include mobile {
       display: none !important; 
@@ -409,6 +418,21 @@ nav {
 
 
 }
+
+
+.mpost-sub {
+
+  margin-left: 15px;
+
+  @include mobile {
+
+    margin-left: 0px;
+
+  }
+
+}
+
+
 
 .pubs > .pub {
   margin: 50px 100px;
