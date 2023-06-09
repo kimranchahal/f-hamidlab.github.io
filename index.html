@@ -17,6 +17,7 @@ image: 25761.jpg
   {% for post in site.posts %}
     <article class="post" style="display:flex;align-items:center;">
       <img src="{{ site.baseurl }}/images/{{ post.image }}" margin-right="15px" float="left" width="250px" display="inline-block"/ alt="" >
+	    <div>
 
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -26,6 +27,8 @@ image: 25761.jpg
 
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+		
+		    </div>
     </article>
   {% endfor %}
 </div>
