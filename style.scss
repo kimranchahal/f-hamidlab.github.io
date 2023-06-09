@@ -311,25 +311,64 @@ nav {
   }
 }
 
-.postmain {
+.mposts > .mpost {
+
+  margin: 50px 150px;
+
+  padding: 0 30px;
+
+  padding-bottom: 2em;
+
+  border-bottom: 1px solid $lightGray;
+
+  @include mobile {
+
+    margin: 50px 0;
+
+  } 
+
+}
+
+.mposts > .mpost:last-child {
+
+  padding-bottom: 1em;
+
+  border-bottom: none;
+
+}
+
+.mpost {
+
   blockquote {
+
     margin: 1.8em .8em;
+
     border-left: 2px solid $gray;
+
     padding: 0.1em 1em;
+
     color: $gray;
+
     font-size: 22px;
+
     font-style: italic;
-    white-space: nowrap;
+
   }
 
   .comments {
+
     margin-top: 10px;
+
   }
 
   .read-more {
+
     text-transform: uppercase;
+
     font-size: 15px;
+
   }
+
 }
 
 .pubs > .pub {
