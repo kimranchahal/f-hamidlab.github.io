@@ -319,7 +319,7 @@ nav {
 
   padding-bottom: 2em;
 
-  border-bottom: 1px solid $lightGray;
+  #border-bottom: 1px solid $lightGray;
 	display:flex;
 	align-items:center;
 	
@@ -422,7 +422,7 @@ nav {
 
 .mpost-sub {
 
-  margin: 25px 0;
+  margin-left: 25px;
 
   @include mobile {
 
