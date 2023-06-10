@@ -262,10 +262,11 @@ nav {
 //
 
 .secttitle{
-  margin: 10px 15%;
+  margin: 10px 12%;
   padding: 0 30px;
   @include mobile {
     margin: 10px 5%;
+	  text-align: center;
   } 
 }
 
