@@ -313,7 +313,7 @@ nav {
 
 .mposts > .mpost {
 
-  margin: 20px 15%;
+  margin: 0 12%;
 
   padding: 0 30px;
 
@@ -326,7 +326,7 @@ nav {
 
   @include mobile {
 
-    margin: 20px 5%;
+    margin: 0 5%;
 	  display:inline;
 
 	align-items:normal;
