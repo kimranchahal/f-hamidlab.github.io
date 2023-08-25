@@ -16,11 +16,13 @@ image: 25761.jpg
   <div class="secttitle"><h1><a href="{{ site.baseurl }}{{ post.url }}">News</a></h1></div>
   {% for post in site.posts %}
     <article class="mpost">
-      <img class="mthumb" src="{{ site.baseurl }}/images/{{ post.image }}"/ alt="" >
+      <a href="{{ site.baseurl }}{{ post.url }}">
+	      <img class="mthumb" src="{{ site.baseurl }}/images/{{ post.image }}"/ alt="" >
+      </a>
 	    <div class="mpost-sub">
 
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1>{{ post.title }}</h1>
 
 
         {{ post.excerpt }}
