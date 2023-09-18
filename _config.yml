@@ -93,3 +93,5 @@ collections:
     people: true
   alumni:
     people: true
+  tools:
+    output: true

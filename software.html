@@ -1,0 +1,35 @@
+---
+layout: default
+title: Software
+permalink: /software/
+image: software.jpg
+---
+
+<div class="herobanner flex-wrapper flex-center" style="background-image: url('{{ site.baseurl }}/images/{{ page.image }}');">
+</div>
+
+<div class="mposts">
+  <div class="secttitle"><h1><a href="{{ site.baseurl }}{{ post.url }}">Bioinformatics tools</a></h1></div>
+  {% for post in site.tools %}
+    <article class="mpost">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <img class="mthumb" src="{{ site.baseurl }}/images/{{ post.image }}"/ alt="" >
+      </a>
+      <div class="mpost-sub">
+
+
+      <h1>{{ post.package }}</h1>
+
+
+      {{ post.excerpt }}
+      <br>
+
+       {% for item in post.links %}
+       <a href="{{ item.url }}" class="read-more">{{ item.name }}&emsp;</a>
+       {% endfor %}
+      
+    
+        </div>
+    </article>
+  {% endfor %}
+</div>
