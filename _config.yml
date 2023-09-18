@@ -86,6 +86,9 @@ exclude:
   - README.md
   - CNAME
 
+include:
+  ['factR2']
+
 collections:
   pubs:
     output: true
