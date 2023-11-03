@@ -4,7 +4,7 @@ package: factR2
 links:
   -
     name: Learn more
-    url: /factR2.html
+    url: /factR2/
   -
     name: GitHub
     url: https://github.com/f-hamidlab/factR2
