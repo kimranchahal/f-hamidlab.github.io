@@ -2,37 +2,31 @@
 layout: default
 title: Team members
 permalink: /team/
+image: ctr_retreat.jpg
 ---
 
+<div class="herobanner flex-wrapper flex-center" style="background-image: url('{{ site.baseurl }}/images/{{ page.image }}');">
+</div>
+
+<h1 class="entry">Current members</h1> 
 <div class="grid-flow">
   {% for member in site.team %}
       <div class="profilegrid">
         <img src="{{ site.baseurl }}/images/{{ member.image }}" style="width:250px;height:250px;">
-        <h2>{{ member.name }}</h2>
+        <h2 style="color:#E98074">{{ member.name }}</h2>
         <p>{{ member.position }}</p>
       </div>
       
   {% endfor %}
 </div>
 
-<div class="posts">
-
+<div class="mposts">
   <div class="secttitle"><h1>Alumni</h1></div>
-
   {% for member in site.alumni %}
-
-
-
-    <article class="post">
-
-      <h3>{{ member.name }}</h3>
-      <p>Position in lab: {{ member.position }}</p>
-      <p>Currently: {{ member.current }}</p>
+    <article class="mpost">
+      <p> <strong>{{ member.name }}</strong> | Position in lab: {{ member.position }} | Currently: {{ member.current }}</p>
     </article>
-
   {% endfor %}
-  
-
 </div>
 
 

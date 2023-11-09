@@ -330,6 +330,7 @@ nav {
     margin: 0 5%;
 	  display:inline;
 
+
 	align-items:normal;
 
   } 
@@ -344,15 +345,21 @@ nav {
 
 }
 
+.mposts{
+  margin: 15px 0 25px 15px;
+}
+
 .mpost {
 
   blockquote {
 
     margin: 1.8em .8em;
 
+
     border-left: 2px solid $gray;
 
     padding: 0.1em 1em;
+
 
     color: $gray;
 
@@ -802,9 +809,10 @@ footer {
     display: grid;
     grid-auto-flow: row;
     grid-gap:1em;
-    margin: 6em 6em;
+    margin: 0 6em 6em 6em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr auto;
+    align-items: center; 
 
     @include mobile {
     grid-template-columns: repeat(1, 1fr);

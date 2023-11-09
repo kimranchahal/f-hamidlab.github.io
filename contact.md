@@ -10,7 +10,7 @@ image: nhh.jpeg
 
 <div class="entry">
 
-<h2>Contact</h2>
+<h2 style="font-size:30px">Contact</h2>
 
 <h3>Dr. Fursham Hamid</h3>
 <a href="mailto:fursham.hamid@kcl.ac.uk">fursham.hamid@kcl.ac.uk</a>
@@ -22,4 +22,5 @@ image: nhh.jpeg
 
 </div>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5697187152323!2d-0.0918313342302071!3d51.50276307963435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760359bdd7498b%3A0x4ece31723683e946!2sNewcomen%20St%2C%20London%20SE1%201UL!5e0!3m2!1sen!2suk!4v1681227436779!5m2!1sen!2suk" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2856.4462576736437!2d-0.09012074927060815!3d51.50200394401884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760359f4a8c70b%3A0x1ba74218895f2644!2sNew%20Hunt&#39;s%20House!5e0!3m2!1sen!2suk!4v1699547033542!5m2!1sen!2suk" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+

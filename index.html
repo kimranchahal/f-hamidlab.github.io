@@ -21,8 +21,10 @@ image: 25761.jpg
       </a>
 	    <div class="mpost-sub">
 
-
-      <h1>{{ post.title }}</h1>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h1>{{ post.title }}</h1>
+      </a>
+      
 
 
         {{ post.excerpt }}
