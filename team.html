@@ -8,6 +8,7 @@ image: ctr_retreat.jpg
 <div class="herobanner flex-wrapper flex-center" style="background-image: url('{{ site.baseurl }}/images/{{ page.image }}');">
 </div>
 
+<div style="margin:0 2%;">
 <h1 class="entry">Current members</h1> 
 <div class="grid-flow">
   {% for member in site.team %}
@@ -19,7 +20,9 @@ image: ctr_retreat.jpg
       
   {% endfor %}
 </div>
+</div>
 
+<div style="margin:0 12%;">
 <div class="mposts">
   <div class="secttitle"><h1>Alumni</h1></div>
   {% for member in site.alumni %}
@@ -27,6 +30,7 @@ image: ctr_retreat.jpg
       <p> <strong>{{ member.name }}</strong> | Position in lab: {{ member.position }} | Currently: {{ member.current }}</p>
     </article>
   {% endfor %}
+</div>
 </div>
 
 
