@@ -14,7 +14,7 @@ title: Welcome
 
 
 
-<div style="margin:0 3%; height:500px">
+<div style="margin:0 3%">
   <div class="secttitle" style="padding-left: 0"><h1><a href="{{ site.baseurl }}{{ post.url }}">News</a></h1></div>
   <div class="lgrid-flow">
   {% for post in site.posts limit:4 %}
@@ -50,36 +50,6 @@ title: Welcome
   {% endfor %}
 </div>
 </div>
-
-
-
-
-
-<!-- <div class="lposts">
-  <div class="secttitle"><h1><a href="{{ site.baseurl }}{{ post.url }}">News</a></h1></div>
-  {% for post in site.posts limit:2 %}
-    <article class="lpost">
-      <div>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <img class="mthumb" src="{{ site.baseurl }}/images/{{ post.image }}"/ alt="" >
-      </a>
-      <div class="lpost-sub">
-
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h4>{{ post.title }}</h4>
-      </a>
-      
-
-
-        {{ post.excerpt }}
-
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </div>
-        </div>
-    </article>
-  {% endfor %}
-</div> -->
 </div>
 
 
