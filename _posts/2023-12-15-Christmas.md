@@ -20,10 +20,12 @@ the rear side of our costumes!
 
 For our performance, the talented Jane played
 the ukelele to David Bowie's Space Oddity 
-(perfect for the theme right!). Fursham is the
-lead singer and Karla played drums. The
-performance went as planned and everyone sang along 
-with us during the chorus. 🎤
+(perfect for the theme right!). Fursham was the
+lead singer and Karla played the drums. The
+performance went as planned and everyone sang along the chorus with us 🎤. 
+
+This is our lab's first Christmas celebration together at the Centre for Developmental Neurobiology. We hope Jane and Karla enjoyed themselves and got a feel of our Centre's festivities. Here's to many more Christmas celebrations ahead 🍾
+
 
 
 <br><br>
