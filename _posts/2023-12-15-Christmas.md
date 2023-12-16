@@ -16,7 +16,7 @@ a day making our costumes together using simple,
 recyclable materials we can find. Check out
 the rear side of our costumes! 
 
-![](Christmas2.jpg) 
+![]({{ site.baseurl }}/images/Christmas2.jpg) 
 
 For our performance, the talented Jane played
 the ukelele to David Bowie's Space Oddity 
