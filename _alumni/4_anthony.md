@@ -1,6 +1,6 @@
 ---
 name: Anthony Booker
 position: Undergraduate intern 
-current: Awaiting graduation
+current: Laboratory Scientist at Anthony Nolan
 image: anthony.jpeg
 ---
