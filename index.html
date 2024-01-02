@@ -12,31 +12,46 @@ title: Welcome
 	</div>
 </div>
 
-
-<div style="margin:100px 0">
+<!-- <div style="margin:100px 0">
   <div class="introgrid-flow">
-    <div class="introgrid" style="background-color: #D3D3D3">
-      <h1>TEXT</h1>
+    <div class="introgrid" style="background-color: #EAE7DC">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <img style="height: 150px; width:100%; object-fit: cover;" src="{{ site.baseurl }}/images/fursham.jpeg"/ alt="" >
+      </a>
+      <div style="margin:0 50px">
+        <h2>Lab Values & Culture</h2>
+      <p>The Hamid Lab is committed to creating a culture that </p>
+      <br>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Learn More</a>
+      </div>
+      
 
     </div>
     <div class="introgrid" style="background-color: #EAE7DC">
-      <h1>TEXT</h1>
-
+      
+      <div style="margin:0 50px">
+      <h2>Research</h2>
+      <p>Our lab is particularly interested in understanding the molecular mechanisms underlying neuronal development by developing sophisticated computational methods that employ cross-disciplinary AI/ML and advanced statistical approaches. Using whole-tissue and single-cell transcriptomics, we study how post-transcriptional mechanisms tightly regulate the expression and functional outputs of lineage-specific neuronal genes.</p>
+      <br>
+      <a href="{{ site.baseurl }}/research/" class="read-more">Learn More</a>
     </div>
-    <div class="introgrid" style="background-color: #D3D3D3">
-      <h1>TEXT</h1>
 
     </div>
     <div class="introgrid" style="background-color: #EAE7DC">
-      <h1>TEXT</h1>
+
+      <div style="margin:0 50px">
+      <h2>Software</h2>
+      <br>
+      <a href="{{ site.baseurl }}/research/" class="read-more">Learn More</a>
+    </div>
 
     </div>
   </div>
 </div>
-
+ -->
 
 <div style="margin:0 3%">
-  <div class="secttitle" style="padding-left: 0"><h1><a href="{{ site.baseurl }}/news/">News</a></h1></div>
+  <div class="secttitle" style="padding-left: 0"><h1><a href="{{ site.baseurl }}/news/">Latest news</a></h1></div>
   <div class="lgrid-flow">
   {% for post in site.posts limit:4 %}
       <div class="lprofilegrid">
