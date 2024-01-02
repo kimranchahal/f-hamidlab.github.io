@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Centre Christmas Celebration
+title: Centre christmas celebration
 image: Christmas1.jpg
 ---
 
@@ -30,7 +30,9 @@ performance went as planned and everyone sang along the chorus with us 🎤.
 
 <br><br>
 
-This is our lab's first Christmas celebration together at the Centre for Developmental Neurobiology. We hope Jane and Karla enjoyed themselves and got a feel of our Centre's festivities. Here's to many more Christmas celebrations ahead 🍾
+This is our lab's first Christmas celebration together at the Centre for Developmental Neurobiology. 
+We hope Jane and Karla enjoyed themselves and got a feel of our Centre's festivities. 
+Here's to many more Christmas celebrations ahead 🍾
 
 
 
