@@ -71,11 +71,11 @@ p {
 }
 
 a {
-  color: #E85A4F;
+  color: #EDAB3B;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #E85A4F;
+    color: #EDAB3B;
   }
 }
 
@@ -536,14 +536,14 @@ footer {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #EAE7DC;
+  background-color: #FBE8A6;
 }
 
 .header .logo {
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-decoration: none;
 }
 
@@ -628,7 +628,7 @@ footer {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 20px 20px;
   }
   .header .menu {
     clear: none;
@@ -734,14 +734,15 @@ footer {
   font-weight: 1000;
 
   line-height: 1.7;
-  margin: 15px 0 15px;
-  padding: 40px 180px;
+  margin: 0px 15px;
+  padding: 0px 180px;
   top: 0;
-  position: absolute;
+  position: relative;
 
   text-align:center;
 
   @include mobile {
+  margin: 0px 15px;
     line-height: 1.4;
     padding: 10px 20px; 
     font-size: 30px; 
@@ -859,7 +860,7 @@ footer {
   margin-right: 15px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #EAE7DC;
+  background-color: #FBE8A6;
   padding: 20px 0 20px 0;
   text-align:center;
 }
@@ -884,7 +885,7 @@ footer {
   margin: 0 15px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #E98074;
+  background-color: #F4976C;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }

@@ -1,57 +1,60 @@
 ---
 layout: default
-image: 25761.jpg
+image: bioinf_banner.jpg
 title: Welcome
 ---
 
-<div class="bio-research-hero flex-wrapper flex-center" style="background-image: url('{{ site.baseurl }}/images/{{ page.image }}');">
-        <div class="research-hero-page-title"=><p>Computational transcriptomics in neurodevelopment</p>						
-		<div class="research-hero-page-content"><p>Our lab is particularly interested in understanding the molecular mechanisms underlying neuronal development by developing sophisticated computational methods that employ cross-disciplinary AI/ML and advanced statistical approaches. Using whole-tissue and single-cell transcriptomics, we study how post-transcriptional mechanisms tightly regulate the expression and functional outputs of lineage-specific neuronal genes.</p>
-					<p>&nbsp;</p>
-		</div>					
-	</div>
+<div class="herobanner flex-wrapper flex-center" style="background-size: cover;background-image: url('{{ site.baseurl }}/images/{{ page.image }}');">
 </div>
 
-<!-- <div style="margin:100px 0">
+<br>
+
+<div class="research-hero-page-title" style="color:#303C6C;"><p>Computational transcriptomics in neurodevelopment</p></div>
+
+
+<div style="margin:20px 0">
+
   <div class="introgrid-flow">
-    <div class="introgrid" style="background-color: #EAE7DC">
-      <a href="{{ site.baseurl }}{{ post.url }}">
+    <div class="introgrid" style="background-color: #B4DFE5">
+    <!--   <a href="{{ site.baseurl }}{{ post.url }}">
         <img style="height: 150px; width:100%; object-fit: cover;" src="{{ site.baseurl }}/images/fursham.jpeg"/ alt="" >
-      </a>
-      <div style="margin:0 50px">
-        <h2>Lab Values & Culture</h2>
-      <p>The Hamid Lab is committed to creating a culture that </p>
+      </a> -->
+      <div style="margin:0 50px;height:450px;overflow: hidden;">
+        <h2>Lab Values</h2>
+      <p style="margin:20px 0">We strive to be resourceful and efficient computational biologists conducting Bioinformatics research in an organised and supportive lab environment. We accept failures and problems as part of personal development and overcome them in a systematic and logical manner. We value open communication and maintain healthy body and mind through balanced work-life activities. The people in the Hamid Lab are our greatest asset.</p>
       <br>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Learn More</a>
+      
       </div>
-      
+      <a style="margin:0 50px" href="{{ site.baseurl }}" class="read-more">Learn More</a>
 
     </div>
-    <div class="introgrid" style="background-color: #EAE7DC">
+    <div class="introgrid" style="background-color: #303C6C;">
       
-      <div style="margin:0 50px">
-      <h2>Research</h2>
-      <p>Our lab is particularly interested in understanding the molecular mechanisms underlying neuronal development by developing sophisticated computational methods that employ cross-disciplinary AI/ML and advanced statistical approaches. Using whole-tissue and single-cell transcriptomics, we study how post-transcriptional mechanisms tightly regulate the expression and functional outputs of lineage-specific neuronal genes.</p>
+      <div style="margin:0 50px;height:450px;overflow: hidden;">
+      <h2 style="color:white">Research</h2>
+      <p style="color:white; margin:20px 0">Our lab is particularly interested in understanding the molecular mechanisms underlying neuronal development by developing sophisticated computational methods that employ cross-disciplinary AI/ML and advanced statistical approaches. Using whole-tissue and single-cell transcriptomics, we study how post-transcriptional mechanisms tightly regulate the expression and functional outputs of lineage-specific neuronal genes.</p>
       <br>
-      <a href="{{ site.baseurl }}/research/" class="read-more">Learn More</a>
+      
     </div>
+    <a style="margin:0 50px" href="{{ site.baseurl }}/research/" class="read-more">Learn More</a>
 
     </div>
-    <div class="introgrid" style="background-color: #EAE7DC">
+    <div class="introgrid" style="background-color: #B4DFE5">
 
       <div style="margin:0 50px">
       <h2>Software</h2>
+      <p style="margin:20px 0">We enjoy programming very much and believe in developing robust, simple-to-use bioinformatics tools for anyone to use.</p>
       <br>
-      <a href="{{ site.baseurl }}/research/" class="read-more">Learn More</a>
+      
     </div>
-
+<a style="margin:0 50px" href="{{ site.baseurl }}/software/" class="read-more">Learn More</a>
     </div>
   </div>
 </div>
- -->
+
 
 <div style="margin:0 3%">
-  <div class="secttitle" style="padding-left: 0"><h1><a href="{{ site.baseurl }}/news/">Latest news</a></h1></div>
+  <div class="secttitle" style="padding-left: 0;"><h1><a href="{{ site.baseurl }}/news/" style="color:#303C6C;">Latest news</a></h1></div>
   <div class="lgrid-flow">
   {% for post in site.posts limit:4 %}
       <div class="lprofilegrid">
