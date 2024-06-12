@@ -16,7 +16,7 @@ image: nhh.jpeg
 <a href="mailto:fursham.hamid@kcl.ac.uk">fursham.hamid@kcl.ac.uk</a>
 
 <p>Centre for Developmental Neurobiology</p>
-<p>4.28b New Hunt's House</p>
+<p>4.2b New Hunt's House</p>
 <p>King's College London</p>	 
 <p>SE1 1UL </p>
 
