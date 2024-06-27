@@ -1,14 +1,14 @@
 ---
 layout: post
-package: NuclearPy
+package: iGluSNFR3
 links:
   -
     name: Learn more
-    url: https://github.com/f-hamidlab/nuclearpy
+    url: https://github.com/f-hamidlab/iGluSNFR3 
   -
     name: GitHub
-    url: https://github.com/f-hamidlab/nuclearpy
-image: cell.jpg
+    url: https://github.com/f-hamidlab/iGluSNFR3
+image: iglusnfr3.png
 ---
 
-NuclearPy is a suite of bioinformatics tools for the quantification and analysis of nuclear features from high-content imaging data.
+Extract multi-cellular spontaneous synaptic activities from a recording of iGluSNFR3.
