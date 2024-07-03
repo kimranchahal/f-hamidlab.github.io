@@ -13,13 +13,14 @@ image: software_banner.jpeg
   <div class="secttitle"><h1><a href="{{ site.baseurl }}{{ post.url }}">Bioinformatics tools</a></h1></div>
   {% for post in site.tools %}
     <article class="mpost">
-      <a>
-        <img class="mthumb" src="{{ site.baseurl }}/images/{{ post.image }}"/ alt="" >
-      </a>
-      <div class="mpost-sub">
+      <div style="vertical-align: top">
+        <h1  style="width: 200px; margin-top: 0px">{{ post.package }}</h1>
+        <!-- <img class="mthumb" src="{{ site.baseurl }}/images/{{ post.image }}"/ alt="" > -->
+      </div>
+      <div class="mpost-sub" >
 
 
-      <h1>{{ post.package }}</h1>
+      <!-- <h1>{{ post.package }}</h1> -->
 
 
       {{ post.excerpt }}
