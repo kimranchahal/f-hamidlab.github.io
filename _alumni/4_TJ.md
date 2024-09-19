@@ -1,6 +1,6 @@
 ---
 name: Tou Jing Tsang
 position: Internship Student
-current: Awaiting graduation
+current: MSc student at UCL
 image: TJ.jpg
 ---
