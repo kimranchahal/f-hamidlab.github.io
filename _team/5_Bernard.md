@@ -1,5 +1,5 @@
 ---
 name: Ooi Wen Nuo Bernard
-position: Undergraduate intern
+position: Internship Student
 image: bernard.jpg
 ---
